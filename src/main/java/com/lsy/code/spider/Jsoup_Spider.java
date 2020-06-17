@@ -11,7 +11,7 @@ import org.jsoup.select.Elements;
 
 import com.alibaba.fastjson.JSON;
 
-public class JsoupUtil {
+public class Jsoup_Spider {
 	public static void main(String[] args) throws Exception {
 		String url = "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/";
 		Map<String, Map<String, Object>> map = new HashMap<String, Map<String,Object>>();
